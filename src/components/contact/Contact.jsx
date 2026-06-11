@@ -56,7 +56,7 @@ const Contact = () => {
                     <h1 className='text-5xl font-medium text-gray-200'>Let's talk </h1>
                     <div className="contact-details flex flex-col gap-7 text-xs">
                         <div className="contact-detail  flex items-center gap-5">
-                            <img src={mail_icon} alt="" /> <p>saikatservices@gmail.com</p>
+                            <img src={mail_icon} alt="" /> <p>sahasaikat782@gmail.com</p>
                         </div>
                         <div className="contact-detail  flex items-center gap-5">
                             <img src={call_icon} alt="" />

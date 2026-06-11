@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import mywork_data from '../../assets/mywork_data';
-import arrow_icon from '../../assets/arrow_icon.svg';
 import { useMemo } from 'react';
 import { ExternalLink } from 'lucide-react';
 
@@ -56,7 +55,7 @@ const MyWork2 = () => {
                 className="flex gap-1 px-8 py-2 border border-white/20 shadow-xl shadow-white/10 rounded-full my-20 text-xs transition-all duration-300"
             >
                 Want to see more of my works? Please visit my <a
-                    href="https://github.com/Saikat-github/All-Practice-Projects"
+                    href="https://github.com/Saikat-github"
                     target="_blank"
                     rel="noreferrer"
                     className='text-blue-600'

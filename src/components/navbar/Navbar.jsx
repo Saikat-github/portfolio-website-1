@@ -19,7 +19,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <div className='flex justify-between md:px-16 lg:px-28 px-6 py-4 md:items-center  sticky top-0 z-20 bg-black/80 border-b border-b-white/20 backdrop-blur-md'>
+    <div className='flex justify-between md:px-16 lg:px-28 px-6 py-4 md:items-center  sticky top-0 z-20 border-b border-b-white/20 backdrop-blur-xl max-md:bg-black'>
       <p to={"/"} className='font-semibold text-lg'>Saikat S.</p>
 
       {/* Menu open icon */}
@@ -32,11 +32,11 @@ const Navbar = () => {
       {/* Navigation Menu */}
       <ul
         className={`nav-menu flex md:flex-row items-center gap-10 absolute right-0 top-14 text-sm
-          ${showSidebar ? ' w-full py-4 h-screen bg-black/90 backdrop-blur px-12 space-y-6 flex-col' : 'hidden md:flex'} md:static md:w-auto md:py-0 md:h-auto md:bg-transparent md:px-0 md:space-y-0`}
+          ${showSidebar ? 'w-full py-4 h-screen px-12 flex-col items-center bg-black' : 'hidden md:flex'} md:static md:w-auto md:py-0 md:h-auto md:bg-transparent md:px-0 md:space-y-0`}
       >
         {/* Resume download */}
-        <a href="/saikatsaha-resume.pdf" download className='md:hidden inline'>
-          <button className="bg-blue-800/30 text-blue-600 py-2 px-4   hover:opacity-90 rounded-full cursor-pointer text-sm transition duration-200">
+        <a href="/Saikat_Saha_Resume.pdf" download className='md:hidden inline'>
+          <button className="bg-blue-800/30 text-blue-600 py-2 px-4 hover:opacity-90 rounded-full cursor-pointer text-sm transition duration-200">
             Resume
           </button>
         </a>
@@ -57,7 +57,7 @@ const Navbar = () => {
 
 
       {/* Resume download */}
-      <a href="/saikatsaha-resume.pdf" download className='md:inline hidden'>
+      <a href="/Saikat_Saha_Resume.pdf" download className='md:inline hidden'>
         <button className="bg-blue-800/30 text-blue-600 py-2 px-4   hover:opacity-90 rounded-full cursor-pointer text-sm transition duration-200">
           Resume
         </button>

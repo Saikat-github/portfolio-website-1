@@ -1,8 +1,6 @@
 import React from 'react'
 import footer_logo from '../../assets/logo.png'
-import instagram from '../../assets/instagram-white.svg'
-import twitter from '../../assets/twitter-white.svg'
-import linkedin from '../../assets/linkedin.svg'
+
 
 
 const Footer = () => {

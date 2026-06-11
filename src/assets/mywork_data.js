@@ -19,24 +19,24 @@ const mywork_data = [
         technologies: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
         img: project3_img,
         info: "A modern gym management platform with online admission, payments, member verification, and separate admin/user dashboards.",
-        sourceCode: "https://github.com/Saikat-github/Gym-2-Frontend-MERN",
+        sourceCode: "https://github.com/Saikat-github/minimalistgyms",
         liveLink: "https://www.minimalistgyms.com"
     },
     {
         no: 2,
-        name: "Tomato",
+        name: "Burdwan Turf",
         technologies: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
         img: project2_img,
-        info: "A food ordering app with online payments and real-time order tracking, inspired by Zomato’s workflow.",
-        sourceCode: "https://github.com/Saikat-github/FoodDelivery-All-Panels",
-        liveLink: "https://food-delivery-frontend-sandy.vercel.app"
+        info: "A production-grade MERN sport turf booking platform built for a real paying client, featuring online reservations, payments, and user management.",
+        sourceCode: "https://github.com/Saikat-github/burdwan-turf",
+        liveLink: "https://burdwan-turf.vercel.app"
     },
     {
         no: 3,
         name: "BG Removal",
         technologies: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
         img: project4_img,
-        info: "A simple image background remover with integrated payment system for premium downloads.",
+        info: "A simple AI powered background remover with integrated payment system for premium downloads.",
         sourceCode: "https://github.com/Saikat-github/bg-removal",
         liveLink: "https://bg-removal-frontend-one.vercel.app"
     },
@@ -46,17 +46,17 @@ const mywork_data = [
         technologies: ["ReactJS", "Appwrite", "TailwindCSS"],
         img: project6_img,
         info: "A fitness coaching website where trainers manage clients, and users access personalized training details.",
-        sourceCode: "https://github.com/Saikat-github/fitnessWebsite",
-        liveLink: "https://fitness-website-snowy.vercel.app"
+        sourceCode: "https://github.com/Saikat-github/zerodiet",
+        liveLink: "https://zerodiet.vercel.app"
     },
     {
         no: 5,
-        name: "Wanderlust",
-        technologies: ["MongoDB", "ExpressJS", "EJS", "NodeJS", "Bootstrap"],
+        name: "Tomato",
+        technologies: ["MongoDB", "ExpressJS", "ReactJS", "NodeJS", "TailwindCSS"],
         img: project5_img,
-        info: "A room rental platform where property owners list accommodations and users can book them online.",
-        sourceCode: "https://github.com/Saikat-github/MajorProject-2",
-        liveLink: "https://wanderlust-project-tvog.onrender.com/listings"
+        info: "A food ordering app with online payments and real-time order tracking, inspired by Zomato’s workflow.",
+        sourceCode: "https://github.com/Saikat-github/food-delivery-all-panels",
+        liveLink: "https://food-delivery-frontend-sandy.vercel.app"
     },
     {
         no: 6,
