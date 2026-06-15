@@ -57,7 +57,7 @@ const Navbar = () => {
 
 
       {/* Resume download */}
-      <a href="/Saikat_Saha_Resume.pdf" download className='md:inline hidden'>
+      <a href="https://drive.google.com/file/d/1ZV5SiP-B-uSGgbR3jgflGx0FJskd0oFy/view?usp=sharing" target="_blank" rel="noopener noreferrer" className='md:inline hidden'>
         <button className="bg-blue-800/30 text-blue-600 py-2 px-4   hover:opacity-90 rounded-full cursor-pointer text-sm transition duration-200">
           Resume
         </button>
